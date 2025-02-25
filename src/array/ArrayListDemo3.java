@@ -1,3 +1,5 @@
+package array;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,5 +32,8 @@ public class ArrayListDemo3 {
     float avg = total / (float)scores.size();
     System.out.println("total = " + total);
     System.out.println("avg = " + avg);
+
+
+
   }
 }

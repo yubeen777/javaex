@@ -1,3 +1,5 @@
+package While;
+
 public class WhileDemo {
   public static void main(String[] args) {
     // 초기식
