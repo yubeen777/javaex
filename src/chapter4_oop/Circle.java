@@ -6,11 +6,14 @@ public class Circle {
   public Circle(double radius) {
     this.radius = radius;
   }
+
   // 인스턴스 멤버
   // 필드
   double radius;
+
   // 메서드
   double findArea() {
     final double PI = 3.141592653589793;
     return PI * radius * radius;
   }
+}
