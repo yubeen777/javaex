@@ -1,7 +1,5 @@
 package array;
 
-import chapter4_oop.Circle;
-
 public class ArrayDemo6 {
   public static void main(String[] args) {
     // 원을 원소로 가지는 배열을 선언한 후 5개의 원을 초기화하라.

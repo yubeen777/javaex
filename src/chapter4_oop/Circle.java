@@ -2,12 +2,10 @@ package chapter4_oop;
 
 public class Circle {
   // 원의 반지름과 넓이를 구하고자 한다.
-  // 원이 생성될 때 크기가 정해진다.
   // 원의 넓이는 0보다 커야 한다.
   // 원이 생성될 때 크기가 정해진다. 크기는 생성 후에도 변경될 수 있다.
   // 원의 반지름과 넓이를 출력하는 기능이 있으면 좋겠다.
   public Circle(double radius) {
-    //this.radius = radius;
     if(radius <= 0) {
       this.radius = 1.0;
     } else {
@@ -16,7 +14,6 @@ public class Circle {
   }
   // 인스턴스 멤버
   // 필드
-  //double radius;
   private double radius;
   // 접근자(getter)와 설정자(setter)
   public double getRadius(){
