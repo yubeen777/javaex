@@ -22,6 +22,5 @@ class CircleDemo {
     System.out.println(c4.color);
     System.out.printf("총 %d 개의 공이 만들어졌습니다. \n", c4.numberOfCircles);
     // " 총 4개의 공이 만들어졌습니다."
-
   }
 }
