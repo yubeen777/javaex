@@ -3,12 +3,14 @@ package chapter4_oop.example;
 class Circle {
   double radius;
   String color;
+  static int numberOfCircles;
 
   public Circle(){
     // 반지름은 직접 입력해준다.
     // color
-    this("빨강");
-    this.radius = 3.0;
+//    this("빨강");
+//    this.radius = 3.0;
+    this(10.0, "빨강");
   }
 
   public Circle(double radius){
@@ -30,5 +32,6 @@ class Circle {
     } else {
       this.color = "빨강";
     }
+    numberOfCircles++;
   }
 }
