@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ForDemo1 {
   public static void main(String[] args) {
     for (int dan = 2; dan <= 9; dan++) {

@@ -11,7 +11,5 @@ public class CastDemo2 {
     String strFloat = "3.14f";
     float f = Float.parseFloat(strFloat);
     System.out.println(f);
-
-    int a;
   }
 }

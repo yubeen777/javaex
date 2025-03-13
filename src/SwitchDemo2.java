@@ -11,11 +11,11 @@ public class SwitchDemo2 {
     System.out.println(day + ":" + result);
 
     int number =
-        switch(day) {
-          case "월","화","수","목","금"  -> 1;
-          case "토", "일"               -> 2;
-          default -> 0;
-        };
+     switch(day) {
+      case "월","화","수","목","금"  -> 1;
+      case "토", "일"               -> 2;
+       default -> 0;
+    };
     System.out.println(day + ":" + number);
   }
 }

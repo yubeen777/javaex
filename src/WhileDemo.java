@@ -1,5 +1,3 @@
-package While;
-
 public class WhileDemo {
   public static void main(String[] args) {
     // 초기식
@@ -19,9 +17,9 @@ public class WhileDemo {
     count = 0;
     // 조건에 맞는 동안 실행
     while(count <= 2) {
-      System.out.println("hello, world");
-      // 증감식
-      count++;
+        System.out.println("hello, world");
+        // 증감식
+        count++;
     }
 
 

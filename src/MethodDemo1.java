@@ -7,7 +7,7 @@ public class MethodDemo1 {
 
   static void method1(){
     System.out.println("반환값이 없는 method가 호출되었습니다.");
-    // return;
+   // return;
   }
   static int add(int num1, int num2){
     int result = num1 + num2;

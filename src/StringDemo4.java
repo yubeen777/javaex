@@ -21,7 +21,7 @@ public class StringDemo4 {
     System.out.println("fruits = " + fruits);
     String str3 = String.format("%s - %d", "jdk", 14);
     System.out.println("str3 = " + str3);
-
+    
     // 텍스트 블록 """ ~ """
     String strBlock = """
         <html>

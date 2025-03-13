@@ -1,6 +1,7 @@
 package example;
 
-
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ExampleChapter5_9 {

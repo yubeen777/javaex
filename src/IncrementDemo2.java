@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class IncrementDemo2 {
   public static void main(String[] args) {
     RefValue ref = new RefValue();
@@ -6,7 +9,6 @@ public class IncrementDemo2 {
     //changePrimitive(ref.x); // call by value (readonly)
     changeReference(ref);
     System.out.println("호출 후 ref.x = " + ref.x);
-
   }
 
   static void changePrimitive(int n) {
@@ -25,3 +27,4 @@ public class IncrementDemo2 {
 class RefValue {
   int x ;
 }
+

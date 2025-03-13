@@ -5,16 +5,21 @@ public class Ball {
   public Ball() { // 기본 생성자
 
   }
-  public Ball(double radius) {//this는 앞으로 쓸 객체의 이름을 몰라 미리 여기다 객체를 넣을거야 라는 의미이다
+  public Ball(double radius) {
     this.radius = radius;
-  }//radius에 어떤 값이 들어오든 초기화 시켜주는 생성자
+  }
   // 필드 (변수)
-  double radius;
+  public double radius;
   // 메서드 (동작)
- public double getVolume(){
+  public double getVolume(){
     return 4/3 * 3.14 * radius * radius * radius ;
   }
   static void print(){
     System.out.println("공입니다.");
+  }
+
+  @Override
+  public String toString() {
+    return "반지름이 " + radius + " 인 원입니다.";
   }
 }

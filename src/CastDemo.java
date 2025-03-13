@@ -4,5 +4,5 @@ public class CastDemo {
 
     byte b = (byte) 300; // -128~127
     System.out.println(b);
+    }
   }
-}

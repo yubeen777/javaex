@@ -26,14 +26,14 @@ public class ArrayListDemo3 {
     }
     System.out.println("scores = " + scores);
 
-    for (int i = 0; i < scores.size(); i++) {
-      total += scores.get(i);
+//    for (int i = 0; i < scores.size(); i++) {
+//      total += scores.get(i);
+//    }
+    for (Integer sc : scores) {
+      total += sc;
     }
     float avg = total / (float)scores.size();
     System.out.println("total = " + total);
     System.out.println("avg = " + avg);
-
-
-
   }
 }

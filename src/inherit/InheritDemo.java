@@ -7,6 +7,7 @@ public class InheritDemo {
     Goldfish g = new Goldfish();
     e.sleep();
     t.sleep();
+    g.sleep();
   }
 }
 
@@ -29,9 +30,7 @@ class Tiger extends Animal{
   String leg;
   void run(){}
 }
-class Goldfish extends Animal {
+class Goldfish extends Animal{
   String fin;
-
-  void swim() {
-  }
+  void swim(){}
 }

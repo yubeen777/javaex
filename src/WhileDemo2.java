@@ -1,5 +1,3 @@
-package While;
-
 import java.util.Scanner;
 
 public class WhileDemo2 {

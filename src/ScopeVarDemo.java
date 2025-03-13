@@ -19,3 +19,4 @@ public class ScopeVarDemo {
     //System.out.println("(main) var1 ==> " + var3);
   }
 }
+

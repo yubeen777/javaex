@@ -12,7 +12,7 @@ public class TextBlockDemo {
 
     System.out.println("hi = \n" + hi);
     System.out.println("hi2 = \n" + hi2);
-
+    
     String escape = """
         \\
         """;
@@ -28,7 +28,7 @@ public class TextBlockDemo {
     System.out.println("hi4 = " + hi4);
     hi4 = hi4.replace('l', 'c');
     System.out.println("hi4 = " + hi4);
-
+    
     String res = """
         가나라
         """.replace("라", "다");

@@ -13,8 +13,8 @@ public class MainArgumentDemo {
   }
 
   private static void printlnCount(int count, String arg) {
-    for (int j = 0; j < count; j++) {
-      System.out.println(arg);
-    }
+      for (int j = 0; j < count; j++) {
+        System.out.println(arg);
+      }
   }
 }

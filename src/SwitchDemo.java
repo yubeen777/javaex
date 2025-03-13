@@ -24,3 +24,4 @@ public class SwitchDemo {
     System.out.printf("%s 는 %s 입니다.\n", animal, kind);
   } // end of method
 } // end of class
+

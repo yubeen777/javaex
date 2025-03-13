@@ -17,7 +17,7 @@ public class ArrayDemo6 {
     }
     // 참조변수 circle 을 출력하면 원의 반지름과 넓이를 출력하게 하려면 ???
     // ==> toString 에 원의 반지름과 넓이를 출력하는 코드 추가
-    // iter (live template 활용)
+   // iter (live template 활용)
     for (Circle circle : circles){
       System.out.println(circle);
     }

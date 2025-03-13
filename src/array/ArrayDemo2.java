@@ -49,8 +49,8 @@ public class ArrayDemo2 {
     }
     System.out.print("}\n");
     System.out.println(Arrays.toString(scores1));
-
-
+    
+    
     char[] chars = {'a', 'b', 'c'};
     System.out.println("chars = " + chars);
 

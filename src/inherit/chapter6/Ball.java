@@ -1,7 +1,5 @@
 package inherit.chapter6;
 
-import chapter4_oop.Circle;
-
 public class Ball extends Circle {
   private String color;
 
